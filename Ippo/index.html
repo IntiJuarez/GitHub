@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página sobre Hajime no Ippo</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/lightbox.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html">
+                <img src="img/Hajime_no_Ippo.png" alt="Logo de Hajime no Ippo">
+            </a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <!-- navegador -->
+        <nav id="menu_bar" class="">
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                    <a href="#">Universo</a>
+                    <a href="#">Temporadas</a>
+                    <a href="#">Manga</a>
+                    <a href="galeria.html">Media/Galeria</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección -->
+    <section>
+        <article class="principal"> <!-- Clase para estilizar en Css -->
+            <div>
+                <h2>Conoce las aventuras de Ippo y cómo llego a ser un gran boxeador!</h2>
+            </div>
+        </article>
+        <article class="secundario">
+            <div>
+                <a href="#">
+                    <img src="img/Miyata.jpg" alt="Temporadas del anime">
+                    <h4>Descubre sobre las Temporadas</h4>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="img/Aoki Masaru.jpg" alt="Manga">
+                    <h4>Conoce más sobre el manga</h4>
+                </a>
+            </div>
+            <div>
+                <a href="galeria.html">
+                    <img src="img/ippo.jpg" alt="Galeria de fotos">
+                    <h4>Galeria de fotos</h4>
+                </a>
+            </div>
+        </article>
+    </section>
+    <!--Footer-->
+    <footer>
+        <img src="img/redes/facebook.png" alt="Facebook">
+        <img src="img/redes/twitter.png" alt="Twitter">
+        <img src="img/redes/youtube.png" alt="Youtube">
+        <img src="img/redes/instagram.png" alt="Instagram">
+    </footer>
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

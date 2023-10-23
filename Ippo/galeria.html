@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página sobre Hajime no Ippo</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/lightbox.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html">
+                <img src="img/Hajime_no_Ippo.png" alt="Logo de Hajime no Ippo">
+            </a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <!-- navegador -->
+        <nav id="menu_bar" class="">
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                    <a href="#">Universo</a>
+                    <a href="#">Temporadas</a>
+                    <a href="#">Manga</a>
+                    <a href="#">Media/Galeria</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección -->
+    <section>
+        <article class="principal"> <!-- Clase para estilizar en Css -->
+            <div>
+                <h2>Conoce las aventuras de Ippo y cómo llego a ser un gran boxeador!</h2>
+            </div>
+        </article>
+        <h1>Galeria Hajime no Ippo</h1>
+        <article class="secundario">
+            <a class="example-image-link" href="img/Ippo entrenando.jpg" data-lightbox="Ippo" data-title="Ippo entrenando en el gimnasio"><img class="example-image" src="img/Ippo entrenando mini.jpg" alt="Ippo entrenando en el gimnasio"/></a>
+            <a class="example-image-link" href="img/Takamura.png" data-lightbox="Takamura" data-title="Takamura comiendo pan"><img class="example-image" src="img/Takamura mini.jpg" alt="Takamura comiendo pan"/></a>
+            <a class="example-image-link" href="img/Ippo y Wanpo.jpg" data-lightbox="Ippo" data-title="Ippo y su amigo Wampo"><img class="example-image" src="img/Ippo y Wanpo mini.jpg" alt="Ippo y su amigo Wampo"/></a>
+            <a class="example-image-link" href="img/Ippo ganando el título.jpg" data-lightbox="Ippo" data-title="Campeón del título"><img class="example-image" src="img/Ippo ganando el título mini.jpg" alt="Campeón del título"/></a>
+            <a class="example-image-link" href="img/Ippo graduación.jpg" data-lightbox="Ippo" data-title="Foto de la graduación de Ippo"><img class="example-image" src="img/Ippo graduación mini.jpg" alt="Foto de la graduación de Ippo"/></a>
+        </article>
+    </section>
+    <!--Footer-->
+    <footer>
+        <img src="img/redes/facebook.png" alt="Facebook">
+        <img src="img/redes/twitter.png" alt="Twitter">
+        <img src="img/redes/youtube.png" alt="Youtube">
+        <img src="img/redes/instagram.png" alt="Instagram">
+    </footer>
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
