@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="css/lightbox.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -16,8 +15,7 @@
                 <img src="img/Hajime_no_Ippo.png" alt="Logo de Hajime no Ippo">
             </a>
         </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-		<nav id="menu_bar" class="navegacion">
+		<nav class="navegacion">
 			<ul class="menu">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="universo.html">Universo</a></li>
@@ -34,30 +32,23 @@
 	</header>
     <!-- Sección -->
     <section>
-        <article class="principal"> <!-- Clase para estilizar en Css -->
+        <article class="IppoInfo"> <!-- Clase para estilizar en Css -->
             <div>
-                <h2>Conoce las aventuras de Ippo y cómo llego a ser un gran boxeador!</h2>
+                <img src="img/Aoki_Masaru.png" alt="graduación Ippo">
+                <aside class="Datos">
+                    <h2>Nombre: Aoki Masaru</h2>
+                    <h2>Genero: Masculino</h2>
+                    <h2>Edad: 35</h2>
+                    <h2>Afiliación: Gimnasio Kamogawa</h2>
+                </aside>
+                <div class="reset"></div>
             </div>
-        </article>
-        <article class="secundario">
-            <div>
-                <a href="#">
-                    <img src="img/Miyata.png" alt="Temporadas del anime">
-                    <h4>Descubre sobre las Temporadas</h4>
-                </a>
-            </div>
-            <div>
-                <a href="universo.html">
-                    <img src="img/Aoki_Masaru.png" alt="Manga">
-                    <h4>Universo de Hajime no Ippo</h4>
-                </a>
-            </div>
-            <div>
-                <a href="galeria.html">
-                    <img src="img/ippo.jpg" alt="Galeria de fotos">
-                    <h4>Galeria de fotos</h4>
-                </a>
-            </div>
+            <p>
+                El mejor amigo de Kimura además de Takamura e Ippo, es un hombre que no tiene mucho talento para el boxeo ya que usa movimientos muy únicos y además cómicos, como el "Doble Punch" (Doble Golpe) y el "Frog Punch" (Salto de Rana). 
+                El trabaja en una tienda de fideos japoneses y es muy bueno cocinando.
+                Al igual que Kimura y Takamura el siempre va a ver a Ippo en sus peleas, además de hacerle la vida imposible junto a Kimura.
+                Su categoría es el peso ligero. Al igual que Kimura, ha tenido un combate por el título japonés de peso Ligero.
+            </p>
         </article>
     </section>
     <!--Footer-->
@@ -67,16 +58,6 @@
         <img src="img/redes/youtube.png" alt="Youtube">
         <img src="img/redes/instagram.png" alt="Instagram">
     </footer>
-    <script type="text/javascript">
-        function myFunction() {
-          var x = document.getElementById("menu_bar");
-          if (x.className === "") {
-            x.className += " responsive";
-          } else {
-            x.className = "";
-          }
-        }
-    </script>
     <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>

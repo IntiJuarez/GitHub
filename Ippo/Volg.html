@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="css/lightbox.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -16,8 +15,7 @@
                 <img src="img/Hajime_no_Ippo.png" alt="Logo de Hajime no Ippo">
             </a>
         </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-		<nav id="menu_bar" class="navegacion">
+		<nav class="navegacion">
 			<ul class="menu">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="universo.html">Universo</a></li>
@@ -34,30 +32,22 @@
 	</header>
     <!-- Sección -->
     <section>
-        <article class="principal"> <!-- Clase para estilizar en Css -->
+        <article class="IppoInfo"> <!-- Clase para estilizar en Css -->
             <div>
-                <h2>Conoce las aventuras de Ippo y cómo llego a ser un gran boxeador!</h2>
+                <img src="img/Volg.png" alt="graduación Ippo">
+                <aside class="Datos">
+                    <h2>Nombre: Alexander Volg Zangief</h2>
+                    <h2>Genero: Masculino</h2>
+                    <h2>Edad: 19</h2>
+                    <h2>Afiliación: Desconocido</h2>
+                </aside>
+                <div class="reset"></div>
             </div>
-        </article>
-        <article class="secundario">
-            <div>
-                <a href="#">
-                    <img src="img/Miyata.png" alt="Temporadas del anime">
-                    <h4>Descubre sobre las Temporadas</h4>
-                </a>
-            </div>
-            <div>
-                <a href="universo.html">
-                    <img src="img/Aoki_Masaru.png" alt="Manga">
-                    <h4>Universo de Hajime no Ippo</h4>
-                </a>
-            </div>
-            <div>
-                <a href="galeria.html">
-                    <img src="img/ippo.jpg" alt="Galeria de fotos">
-                    <h4>Galeria de fotos</h4>
-                </a>
-            </div>
+            <p>
+                Es un boxeador de procedencia rusa que debutó como boxeador amateur en Japón para posteriormente convertirse en un boxeador peso pluma con el fin de obtener el cinturón de campeón japonés de Eiji Date.
+                <br><br>
+                A pesar de su presencia amenazante (como fue descrito por muchos) en el ring, Volg es un chico humilde e inocente que, como se revela antes de su pelea con Ippo, comenzó a trabajar como boxeador en Japón con el fin de recaudar dinero para su enferma madre.
+            </p>
         </article>
     </section>
     <!--Footer-->
@@ -67,16 +57,6 @@
         <img src="img/redes/youtube.png" alt="Youtube">
         <img src="img/redes/instagram.png" alt="Instagram">
     </footer>
-    <script type="text/javascript">
-        function myFunction() {
-          var x = document.getElementById("menu_bar");
-          if (x.className === "") {
-            x.className += " responsive";
-          } else {
-            x.className = "";
-          }
-        }
-    </script>
     <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
