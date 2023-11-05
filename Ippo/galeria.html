@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="css/lightbox.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -16,41 +17,54 @@
             </a>
         </div>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-        <!-- navegador -->
-        <nav id="menu_bar" class="">
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                    <a href="#">Universo</a>
-                    <a href="#">Temporadas</a>
-                    <a href="#">Manga</a>
-                    <a href="#">Media/Galeria</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+		<nav id="menu_bar" class="navegacion">
+			<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="universo.html">Universo</a></li>
+				<li><a href="#">Personajes</a>
+					<ul class="submenu">
+						<li><a href="personajes-principal.html">Principales</a></li>
+						<li><a href="personajes-secundarios.html">Secundarios</a></li>
+					</ul>
+				</li>
+				<li><a href="contacto.html">Contacto</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+			</ul>
+		</nav>
+	</header>
     <!-- Sección -->
     <section>
-        <article class="principal"> <!-- Clase para estilizar en Css -->
-            <div>
-                <h2>Conoce las aventuras de Ippo y cómo llego a ser un gran boxeador!</h2>
-            </div>
-        </article>
-        <h1>Galeria Hajime no Ippo</h1>
-        <article class="secundario">
+        <h4>Galeria Hajime no Ippo</h4>
+        <article class="galeria">
             <a class="example-image-link" href="img/Ippo entrenando.jpg" data-lightbox="Ippo" data-title="Ippo entrenando en el gimnasio"><img class="example-image" src="img/Ippo entrenando mini.jpg" alt="Ippo entrenando en el gimnasio"/></a>
-            <a class="example-image-link" href="img/Takamura.png" data-lightbox="Takamura" data-title="Takamura comiendo pan"><img class="example-image" src="img/Takamura mini.jpg" alt="Takamura comiendo pan"/></a>
             <a class="example-image-link" href="img/Ippo y Wanpo.jpg" data-lightbox="Ippo" data-title="Ippo y su amigo Wampo"><img class="example-image" src="img/Ippo y Wanpo mini.jpg" alt="Ippo y su amigo Wampo"/></a>
             <a class="example-image-link" href="img/Ippo ganando el título.jpg" data-lightbox="Ippo" data-title="Campeón del título"><img class="example-image" src="img/Ippo ganando el título mini.jpg" alt="Campeón del título"/></a>
+            <a class="example-image-link" href="img/Ippo graduación.jpg" data-lightbox="Ippo" data-title="Foto de la graduación de Ippo"><img class="example-image" src="img/Ippo graduación mini.jpg" alt="Foto de la graduación de Ippo"/></a>
+            <a class="example-image-link" href="img/Ippo graduación.jpg" data-lightbox="Ippo" data-title="Foto de la graduación de Ippo"><img class="example-image" src="img/Ippo graduación mini.jpg" alt="Foto de la graduación de Ippo"/></a>
+            <a class="example-image-link" href="img/Ippo graduación.jpg" data-lightbox="Ippo" data-title="Foto de la graduación de Ippo"><img class="example-image" src="img/Ippo graduación mini.jpg" alt="Foto de la graduación de Ippo"/></a>
+            <a class="example-image-link" href="img/Ippo graduación.jpg" data-lightbox="Ippo" data-title="Foto de la graduación de Ippo"><img class="example-image" src="img/Ippo graduación mini.jpg" alt="Foto de la graduación de Ippo"/></a>
+            <a class="example-image-link" href="img/Ippo graduación.jpg" data-lightbox="Ippo" data-title="Foto de la graduación de Ippo"><img class="example-image" src="img/Ippo graduación mini.jpg" alt="Foto de la graduación de Ippo"/></a>
+            <a class="example-image-link" href="img/Ippo graduación.jpg" data-lightbox="Ippo" data-title="Foto de la graduación de Ippo"><img class="example-image" src="img/Ippo graduación mini.jpg" alt="Foto de la graduación de Ippo"/></a>
+            <a class="example-image-link" href="img/Ippo graduación.jpg" data-lightbox="Ippo" data-title="Foto de la graduación de Ippo"><img class="example-image" src="img/Ippo graduación mini.jpg" alt="Foto de la graduación de Ippo"/></a>
+            <a class="example-image-link" href="img/Ippo graduación.jpg" data-lightbox="Ippo" data-title="Foto de la graduación de Ippo"><img class="example-image" src="img/Ippo graduación mini.jpg" alt="Foto de la graduación de Ippo"/></a>
             <a class="example-image-link" href="img/Ippo graduación.jpg" data-lightbox="Ippo" data-title="Foto de la graduación de Ippo"><img class="example-image" src="img/Ippo graduación mini.jpg" alt="Foto de la graduación de Ippo"/></a>
         </article>
     </section>
     <!--Footer-->
     <footer>
-        <img src="img/redes/facebook.png" alt="Facebook">
-        <img src="img/redes/twitter.png" alt="Twitter">
-        <img src="img/redes/youtube.png" alt="Youtube">
-        <img src="img/redes/instagram.png" alt="Instagram">
+        <a href="https://www.facebook.com/GeorgeMorikawaArt/" target="_blank">
+            <img src="img/redes/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://twitter.com/WANPOWANWAN" target="_blank">
+            <img src="img/redes/twitter.png" alt="Twitter">
+        </a>
+        <a href="https://www.youtube.com/watch?v=JyMPKtExVng&ab_channel=CrunchyrollCollection" target="_blank"> 
+            <img src="img/redes/youtube.png" alt="Youtube">
+        </a>
+        <a href="https://instagram.com/hajime.no.ippo.manga?igshid=OWJIcWNqdHJvMnEx" target="_blank">
+            <img src="img/redes/instagram.png" alt="Instagram">
+        </a>
+
     </footer>
     <script type="text/javascript">
         function myFunction() {

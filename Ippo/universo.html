@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página sobre Hajime no Ippo</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/lightbox.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html">
+                <img src="img/Hajime_no_Ippo.png" alt="Logo de Hajime no Ippo">
+            </a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+		<nav id="menu_bar" class="navegacion">
+			<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="universo.html">Universo</a></li>
+				<li><a href="#">Personajes</a>
+					<ul class="submenu">
+						<li><a href="personajes-principal.html">Principales</a></li>
+						<li><a href="personajes-secundarios.html">Secundarios</a></li>
+					</ul>
+				</li>
+				<li><a href="contacto.html">Contacto</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+			</ul>
+		</nav>
+	</header>
+    <!-- Sección -->
+    <section>
+        <article class="principalUniverso"> <!-- Clase para estilizar en Css -->
+            <div>
+                <img id="izquierda" src="img/Ippo graduación.jpg" alt="graduación Ippo">
+                <aside>"Hajime no Ippo" narra la historia de Ippo Makunouchi, un joven tímido 
+                    y amable que trabaja en una tienda de pesca con su madre. Su vida da un giro inesperado 
+                    cuando un día es rescatado por Mamoru Takamura, un carismático boxeador, de un grupo 
+                    de matones. Impresionado por la determinación y el potencial de Ippo, Takamura lo lleva 
+                    al gimnasio Kamogawa Boxing Gym, donde Ippo se convierte en aprendiz de boxeo.
+                </aside>
+                <div class="reset"></div>
+            </div>
+            <div>
+                <img id="izquierda" src="img/Ippo entrenando.jpg" alt="graduación Ippo">
+                <aside>La serie sigue la travesía de Ippo mientras se adentra en el mundo del boxeo. A medida 
+                    que entrena duro y enfrenta desafíos cada vez más difíciles, Ippo descubre su pasión por 
+                    el deporte y se convierte en un boxeador talentoso. Su objetivo principal es convertirse 
+                    en campeón y demostrar su valía en el cuadrilátero.
+                    A lo largo de la serie, Ippo forja amistades, enfrenta rivales formidables y supera 
+                    obstáculos personales y profesionales. "Hajime no Ippo" es una emocionante historia de 
+                    superación personal, amistad y la búsqueda de la grandeza en el mundo del boxeo.
+                </aside>
+                <div class="reset"></div>
+            </div>
+            <div>
+                <img id="izquierda" src="img/manga-ippo.jpg" alt="graduación Ippo">
+                <aside>En Hajime no Ippo nos encontramos con una historia deportiva centrada en el boxeo donde varios jóvenes quieren abrirse paso en el difícil y duro mundo del pugilismo. 
+                    Cada uno por alguna razón y motivo distinto, evidentemente. 
+                    Como protagonista principal tenemos al bueno de Ippo Makunouchi, un chaval de 16 años bastante tímido, sin apenas amistades, 
+                    que ayuda a su madre en una tienda de pesca y que debido a su carácter bonachón e introvertido llega incluso a recibir cierto bullying por parte de algunos compañeros de su escuela… hasta que se cruza con Mamoru Takamura, uno de los personajes con más peso y carisma de toda la serie, 
+                    que le convence para que se enfunde los guantes y se suba al ring. A partir de ahí comienza un 
+                    fascinante camino repleto de alegrías y sinsabores, de victorias y derrotas, de esfuerzo máximo y frustración, todo mezclado con un toque de comedia muy bien medida y encajada en una trama que nos muestra la evolución de todos y cada uno de los personajes que se asoman por las páginas de esta magnífica obra creada por George Morikawa.
+                </aside>
+                <div class="reset"></div>
+            </div>
+        </article>
+    </section>
+    <!--Footer-->
+    <footer>
+        <a href="https://www.facebook.com/GeorgeMorikawaArt/" target="_blank">
+            <img src="img/redes/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://twitter.com/WANPOWANWAN" target="_blank">
+            <img src="img/redes/twitter.png" alt="Twitter">
+        </a>
+        <a href="https://www.youtube.com/watch?v=JyMPKtExVng&ab_channel=CrunchyrollCollection" target="_blank"> 
+            <img src="img/redes/youtube.png" alt="Youtube">
+        </a>
+        <a href="https://instagram.com/hajime.no.ippo.manga?igshid=OWJIcWNqdHJvMnEx" target="_blank">
+            <img src="img/redes/instagram.png" alt="Instagram">
+        </a>
+
+    </footer>
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

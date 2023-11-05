@@ -23,8 +23,8 @@
 				<li><a href="universo.html">Universo</a></li>
 				<li><a href="#">Personajes</a>
 					<ul class="submenu">
-						<li><a href="personajes-principal.html">Principales</a></li>
-						<li><a href="personajes-secundarios.html">Secundarios</a></li>
+						<li><a href="#">Principales</a></li>
+						<li><a href="#">Secundarios</a></li>
 					</ul>
 				</li>
 				<li><a href="contacto.html">Contacto</a></li>
@@ -33,33 +33,21 @@
 		</nav>
 	</header>
     <!-- Sección -->
-    <section>
-        <article class="principal"> <!-- Clase para estilizar en Css -->
-            <div>
-                <h2>Conoce las aventuras de Ippo y cómo llego a ser un gran boxeador!</h2>
-            </div>
-        </article>
-        <article class="secundario">
-            <div>
-                <a href="universo.html">
-                    <img src="img/Miyata.png" alt="Información del anime">
-                    <h4>Universo de Ippo!</h4>
-                </a>
-            </div>
-            <div id="Aoki">
-                <a href="galeria.html">
-                    <img src="img/Aoki_Masaru.png" alt="Galeria de fotos">
-                    <h4>Galeria de fotos</h4>
-                </a>
-            </div>
-            <div>
-                <a href="contacto.html">
-                    <img src="img/ippo.jpg" alt="Formulario de contacto">
-                    <h4>Contactanos!</h4>
-                </a>
-            </div>
-        </article>
-    </section>
+    <div class="formulario">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
     <!--Footer-->
     <footer>
         <a href="https://www.facebook.com/GeorgeMorikawaArt/" target="_blank">
@@ -86,6 +74,5 @@
           }
         }
     </script>
-    <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
