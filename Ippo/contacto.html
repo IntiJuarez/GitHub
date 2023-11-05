@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="css/lightbox.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -15,7 +16,8 @@
                 <img src="img/Hajime_no_Ippo.png" alt="Logo de Hajime no Ippo">
             </a>
         </div>
-		<nav class="navegacion">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+		<nav id="menu_bar" class="navegacion">
 			<ul class="menu">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="universo.html">Universo</a></li>
@@ -53,5 +55,15 @@
         <img src="img/redes/youtube.png" alt="Youtube">
         <img src="img/redes/instagram.png" alt="Instagram">
     </footer>
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
 </body>
 </html>
