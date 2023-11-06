@@ -119,6 +119,12 @@ section h4{
     margin-right: -5%;
     margin-left: 7%;
     margin-bottom: 2%;
+    margin-top: 20px;
+}
+
+.example-image{
+    width: 300px;
+    height: 220px;
 }
 
 .secundario{
@@ -179,6 +185,7 @@ footer{
     justify-content: center;
     align-items: center;
     height: 120px;
+    padding-right: 70px;
 }
 footer img{
     padding-top: 3rem;
@@ -186,6 +193,16 @@ footer img{
     height: auto;
     margin-right: 1%;
     max-width: 2.5rem;
+}
+
+/*footer-contacto*/
+.footer-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    padding-right: 1%;
+    padding-left: 4%;
 }
 
 /*Personajes*/
