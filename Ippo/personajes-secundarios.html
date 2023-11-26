@@ -7,8 +7,31 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="css/lightbox.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="body-p">
+    <header>
+        <div>
+            <a href="index.html">
+                <img src="img/Hajime_no_Ippo.png" alt="Logo de Hajime no Ippo">
+            </a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+		<nav id="menu_bar" class="">
+			<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="universo.html">Universo</a></li>
+				<li><a href="#">Personajes</a>
+					<ul class="submenu">
+						<li><a href="personajes-principal.html">Principales</a></li>
+						<li><a href="personajes-secundarios.html">Secundarios</a></li>
+					</ul>
+				</li>
+				<li><a href="contacto.html">Contacto</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+			</ul>
+		</nav>
+	</header>
     <!-- Sección -->
     <section class="seccion-p">
         <div class="Umezawa"> <a href="Umezawa.html"> <button>Umezawa</button></a> </div>
@@ -18,5 +41,30 @@
         <div class="Volg"> <a href="Volg.html"> <button>Volg</button></a></div>
     </section>
     <!--Footer-->
+    <footer>
+        <a href="https://www.facebook.com/GeorgeMorikawaArt/" target="_blank">
+            <img src="img/redes/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://twitter.com/WANPOWANWAN" target="_blank">
+            <img src="img/redes/twitter.png" alt="Twitter">
+        </a>
+        <a href="https://www.youtube.com/watch?v=JyMPKtExVng&ab_channel=CrunchyrollCollection" target="_blank"> 
+            <img src="img/redes/youtube.png" alt="Youtube">
+        </a>
+        <a href="https://instagram.com/hajime.no.ippo.manga?igshid=OWJIcWNqdHJvMnEx" target="_blank">
+            <img src="img/redes/instagram.png" alt="Instagram">
+        </a>
+    </footer>
+    <!--Script-->
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementById("menu_bar");
+            if (x.className === "") {
+                x.className += " responsive";
+            } else {
+            x.className = "";
+            }
+        }
+    </script>
 </body>
 </html>

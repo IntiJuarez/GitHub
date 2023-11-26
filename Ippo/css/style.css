@@ -41,7 +41,7 @@ header{
 .menu li a{
 	display: block;
 	padding: 15px 20px;
-	color: black;
+	color:rgb(15, 15, 15);
 	font-family: 'Open sans';
 	text-decoration: none;
     font-size: 1.2rem;
@@ -115,6 +115,8 @@ section h4{
     margin-left: 6.80%;
 }
 
+
+
 .galeria a{
     display: inline-block;
     margin-right: -5%;
@@ -122,6 +124,7 @@ section h4{
     margin-bottom: 2%;
     margin-top: 20px;
 }
+
 
 .example-image{
     width: 300px;
@@ -155,6 +158,16 @@ section h4{
     display: flex;
     justify-content: space-between;
 }
+
+.secundario div a:hover img{
+    transform: scale(1.1);
+    transition: transform 0.6s ease-in-out;
+}
+
+.secundario h4{
+    color: rgb(8, 151, 151);
+}
+
 
 h4{
     font-size: 1.5rem;
@@ -221,7 +234,7 @@ footer img{
 /*Personajes*/
 .body-p{
     height: 100vh;
-    display: flex;
+    display: table-row;
     justify-content: center;
     align-items: center;
     background-color: rgb(28, 28, 28);
@@ -231,6 +244,15 @@ footer img{
     display: flex;
     width: 1200px;
     height: 600px;
+}
+
+.body-p nav{
+	width: 1000px;
+	margin: 30px auto;
+}
+
+.body-p ul{
+	list-style: none;
 }
 
 .seccion-p div{
@@ -411,7 +433,7 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     text-decoration: none;
-    text-align: justify;
+    text-align: start;
     padding-top: 4%;
     margin-left: 4%;
 }
@@ -503,6 +525,7 @@ button:hover {
     nav.responsive ul li a {
         padding-right: 0;
     }
+
     section{
         max-width: 480px;
         width: 100%;
@@ -518,13 +541,13 @@ button:hover {
         display: block;
     }
     .secundario div{
-        margin-right: auto;
-        margin-left: auto;
+        margin-left: 110px;
         width: 90%;
     }
     .secundario div a img{
         margin-bottom: 1rem;
     }
+
     h2{
         font-size: 1rem;
     }
@@ -552,18 +575,25 @@ button:hover {
     }
 
     .principalUniverso div img{
-        float: left;
-        width: 50%;
+        float:left;
+        width: 100%;
+        height: auto;
         padding: 20px;
         border-radius: 15%;
     }
 
     .principalUniverso aside{
-        font-size: 1rem;
+        font-size: 1.3rem;
         padding: 22px;
         text-decoration: none;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         color: whitesmoke;
+        text-align: start;
+        display: inline-flex;
+    }
+
+    .principalUniverso div{
+        padding: 0%;
     }
 
     .formulario {
@@ -582,14 +612,24 @@ button:hover {
 
     .body-p{
         height: 100vh;
-        display: flex;
+        display:table-row ;
         justify-content: center;
         align-items: center;
         background-color: rgb(28, 28, 28);
     }
     
+    .body-p nav{
+        width: 100px;
+        margin: 30px auto;
+    }
+    
+    .body-p ul{
+        list-style: none;
+    }
+    
+    
     .seccion-p{
-        display: flex;
+        display: inline-flex;
         width: 480px;
         height: 720px;
     }
@@ -615,5 +655,44 @@ button:hover {
         justify-content: center;
         align-items: center;
     }
+
+    .galeria {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
     
+    .galeria a {
+        width: 48%;
+        margin-bottom: 1rem;
+    }
+    
+    .example-image {
+        width: 80%;
+        height: 90%; /* Esto asegura que la altura se ajuste automáticamente según el ancho */
+    }
+
+    .Datos{
+        display: inline-flex;
+        flex-direction: column;
+        padding-top: 7%;
+        margin-left: 23%;    
+    }
+
+    .IppoInfo div img{
+        float: left;
+        width: 100%;
+        padding: 0%;
+    }
+    .UmezawaInfo div img{
+        float:left;
+        width: 100%;
+        padding: 0%;
+    }
+    .KamoInfo div img{
+        float: left;
+        width: 100%;
+        padding: 0%;
+    }
+  
 }
