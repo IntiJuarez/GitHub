@@ -247,7 +247,7 @@ footer img{
 }
 
 .body-p nav{
-	width: 1000px;
+	width: 900px;
 	margin: 30px auto;
 }
 
@@ -541,8 +541,9 @@ button:hover {
         display: block;
     }
     .secundario div{
-        margin-left: 110px;
-        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
     .secundario div a img{
         margin-bottom: 1rem;
@@ -631,7 +632,7 @@ button:hover {
     .seccion-p{
         display: inline-flex;
         width: 480px;
-        height: 720px;
+        height: auto;
     }
 
     .Aoki{
