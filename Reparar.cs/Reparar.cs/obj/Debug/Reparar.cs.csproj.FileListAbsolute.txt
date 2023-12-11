@@ -1,0 +1,7 @@
+C:\Users\intil\Desktop\Reparar.cs\Reparar.cs\bin\Debug\Reparar.cs.exe.config
+C:\Users\intil\Desktop\Reparar.cs\Reparar.cs\bin\Debug\Reparar.cs.exe
+C:\Users\intil\Desktop\Reparar.cs\Reparar.cs\bin\Debug\Reparar.cs.pdb
+C:\Users\intil\Desktop\Reparar.cs\Reparar.cs\obj\Debug\Reparar.cs.csprojAssemblyReference.cache
+C:\Users\intil\Desktop\Reparar.cs\Reparar.cs\obj\Debug\Reparar.cs.csproj.CoreCompileInputs.cache
+C:\Users\intil\Desktop\Reparar.cs\Reparar.cs\obj\Debug\Reparar.cs.exe
+C:\Users\intil\Desktop\Reparar.cs\Reparar.cs\obj\Debug\Reparar.cs.pdb
